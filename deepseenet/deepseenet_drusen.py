@@ -3,7 +3,9 @@ import logging
 import numpy as np
 from keras import models
 from keras.preprocessing import image
-from keras.utils import get_file
+#from keras.utils import get_file
+from keras.utils.data_utils import get_file
+
 
 from deepseenet import deepseenet_risk_factor
 from deepseenet.utils import crop2square

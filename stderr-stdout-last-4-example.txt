@@ -1,0 +1,2 @@
+python3 examples/predict_simplified_score.py ~/scratch/Sampleimages/retinal_BL_left_10001335.jpg ~/scratch/Sampleimages/retinal_BL_right_10001335.jpg  2>&1 | tail -4 > /tmp/sample.txt
+

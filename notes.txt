@@ -1,0 +1,6 @@
+what a mess upstream sheesh. note that *maybe* you can fix get_file by finding out where the stupid ass code is and then substiuting this:
+
+from keras.utils.data_utils import get_file
+
+instead of just keras.utils
+
